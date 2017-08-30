@@ -1,0 +1,167 @@
+
+/*psots-page-responsive-css-open*/
+@media screen and (min-width: 992px) {
+   .my-nav-ul li a {
+      padding: 44px 31px !important;
+	  transition: 1s;
+    }
+	.list-inline li
+	{
+	width: 49%;
+    display: inline-block;
+    text-align: center;
+	}
+	
+	.post-li {
+    width: 49% !important;
+    position: relative !important;
+    top: 0% !important;
+    left: 0% !important;
+    float: left;
+    display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+   
+   .posts-sec-main-wrapper 
+    {
+       width:90%;
+	   transition: 1s;
+	   padding: 0px;
+
+    }
+	
+    .posts-page-sec-1-main-div
+	{
+
+        width:100%;
+		transition: 1s;
+	}
+
+    .section-3-main-div-posts-sec {
+    width: 100%;
+    transition: 1s;
+	float:left;
+    }
+     .section-title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #222;
+    top: 42%;
+    margin-top: -1px;
+    z-index: 0;
+    }
+    .section-title {
+    font-size: 26px;
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    position: relative;
+    color: #333;
+    text-align: center;
+    }
+	.list-inline li {
+    width: 49% !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 26px;
+    }
+	
+	.my-nav-ul li a {
+      padding: 44px 23px !important;
+	  transition: 1s;
+    }
+	
+	.post-li {
+    width: 49% !important;
+    position: relative !important;
+    top: 0% !important;
+    left: 0% !important;
+    float: left;
+    display: inline-block;
+    }
+
+	
+}
+@media screen and (max-width: 896px) {
+	
+	
+.my-nav-ul li a {
+    font-size: 13px !important;
+	padding: 44px 15px !important;
+	transition: 1s;
+	
+ }
+ .post-li {
+    width: 49% !important;
+    position: relative !important;
+    top: 0% !important;
+    left: 0% !important;
+    float: left;
+    display: inline-block;
+    }
+ 
+ 
+}
+
+@media screen and (max-width: 768px){
+	
+.main-logo
+ {
+	 width:20%;
+	 transition: 1s;
+ }
+ 
+ .my-nav-inner-div
+ {
+  max-height: 100% !important;
+  transition: 1s;
+ }
+ .post-li {
+    width: 49% !important;
+    position: relative !important;
+    top: 0% !important;
+    left: 0% !important;
+    float: left;
+    display: inline-block;
+    }
+	
+	.section-title {
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    position: relative;
+    color: #333;
+    text-align: center;
+    }
+	.list-inline li {
+    width: 49% !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    }
+	
+	.my-nav-ul li a {
+    font-size: 13px !important;
+	padding: 15px 20px !important;
+	transition: 1s;
+	
+    }
+ 
+}
+
+
+
+/*============================================================================================================================================
+                                                       footer-responsive-css-open
+=============================================================================================================================================*/
+
+

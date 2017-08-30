@@ -1,0 +1,558 @@
+<style>
+    .social-icons{
+        list-style: none;
+        padding:0;
+        margin:0;
+    }
+    .social-icons li{
+        display: inline-block;
+        font-size: 1.8em;
+        margin-right: 10px;
+    }
+    .container-fluid{
+        padding-left: 0;
+        padding-right:0;
+        margin-top: 10px;
+    }
+    .form-control{
+        margin-bottom:20px;
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+    }
+    form .form-control:focus{
+        border-color: #cc0000;
+    }
+    .carousel-content{
+        margin-top:28%;
+
+    }
+    .carousel-content h1{
+        color:#fff;
+        font-size:7em;
+    }
+    .carousel-content h3{
+        color:#fff;
+    }
+    form .btn.btn-success:hover{
+        background-color: transparent;
+        border-color: #fff;
+        color:#fff;
+    }
+    section{
+        margin-top: 70px;
+    }
+    .redline {
+        padding: 60px 15px 75px;
+    }
+    .redline .redline-title {
+        text-align: center;
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        margin-top: 0;
+    }
+    .redline .redline-title:after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 40px;
+        background: #fff;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        margin-left: -20px;
+    }
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .contact-content{
+            margin:0 20px;
+        }
+        .info-contact{
+            padding-top:15px;
+        }
+        section .owl-carousel.item img{
+            height:auto;
+        }
+    }
+
+</style>
+<!-- end #header -->
+
+<!-- begin #home -->
+<section id="main-slider" data-scrollview="true" >
+    <div class="owl-carousel">
+
+        <div class="item" >
+            <img src="<?php echo $this->baseUrl();?>/images/user/slides/<?php echo $this->slides[0]['slide2']?>" alt="<?php echo $this->slides[0]['slide2']?>" class="img-responsive" style="background-repeat:no-repeat;width: 100%;">
+            <div class="slider-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content text-center">
+                                <h1 class="visible-lg">Custom App Development
+                                </h1>
+                                <h3 class="visible-lg">At Aliinfotech, we strive to offer Custom Software Development that are compatible with all business models and industry verticals</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.item-->
+        <div class="item" >
+            <img src="<?php echo $this->baseUrl();?>/images/user/slides/<?php echo $this->slides[0]['slide3']?>" alt="<?php echo $this->slides[0]['slide3']?>" class="img-responsive" style="filter: brightness(35%); background-repeat:no-repeat;width: 100%;">
+            <div class="slider-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content text-center">
+                                <h1 class="visible-lg">Mobile App Development
+                                </h1>
+                                <h3 class="visible-lg">We do not just build apps. We craft top-notch mobile experiences</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.item-->
+        <div class="item" >
+            <img src="<?php echo $this->baseUrl();?>/images/user/slides/<?php echo $this->slides[0]['slide4']?>" alt="<?php echo $this->slides[0]['slide4']?>" class="img-responsive" style="filter: brightness(35%);  background-repeat:no-repeat;width: 100%;">
+            <div class="slider-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content text-center">
+                                <h1 class="visible-lg">Web App Development</h1>
+                                <h3 class="visible-lg">Complexity delivered in a simple solution — creating powerful web applications capable of heavy lifting
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.item-->
+    </div>
+
+    <!--/.owl-carousel-->
+</section><!--/#main-slider-->
+<!-- end #home -->
+
+<!-- begin #about -->
+<div id="about" class="content" data-scrollview="true">
+    <!-- begin container -->
+    <div class="container">
+        <h3 class="content-title">WE ARE ALIINFOTECH – WE DESIGN REVOLUTIONS!</h3>
+        <p class="content-desc">
+            We are group of marketing and designing experts, we have a deep-rooted belief in rational function and sustainable aesthetics. Our methodical approach is focused on revealing the essence of each design / marketing challenge to allow us to create holistic and durable solutions. We have a proven track record and over 5 years of industrial experience for crafting effective Internet marketing strategies & creative branding solutions with measurable, long-term results.
+        </p>
+        <!-- begin row -->
+        <div class="row text-center">
+            <!-- begin col-4 -->
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[8]['block']?>" alt="Home" style="width:73px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>Web Application Development</h4>
+                <p>Our software engineers have a wealth of experience in building web applications. We are also experts in many verticals and business domains, including e-Commerce, e-Learning, AdTech, Finance, Entertainment, and more.
+                </p>
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-4">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[7]['block']?>" alt="Home" style="width:64px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>Custom Software Development</h4>
+                <p>We offer full-cycle development services for web, mobile and desktop. We master all levels of software complexity and provide quality solutions on the following technologies: Desktop, Mobile, Web, and Databases.
+                </p>
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-4">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[9]['block']?>" alt="Home" style="width:73px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>Mobile Application Development</h4>
+                <p>Develop powerful, highly usable mobile apps that solve business problems, attract users, and reinforce your brand. We build native, hybrid, and cross-platform apps that run on all major operating systems such as iOS and Android.
+                </p>
+            </div>
+            <!-- end col-4 -->
+        </div>
+        <div class="row text-center">
+            <!-- begin col-4 -->
+            <div class="col-md-4">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[5]['block']?>" alt="Home" style="width:73px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>E-commerce Website Development</h4>
+                <p>Aliinfotech could be a recognized ecommerce development company delivering fast & furious development services to purchasers situated worldwide. Our e-commerce areas included Magento, and Shopify.</p>
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-4">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[4]['block']?>" alt="Home" style="width:73px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>CMS Application Development</h4>
+                <p>If you’re looking to develop a custom application or a feature that Aliinfotech Experts doesn’t already include, let us build it for you. We create custom CMS website for clients on Wordpress, Joomla, Drupal, and Aliinfotech's Netefect.</p>
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-4">
+                <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[6]['block']?>" alt="Home" style="width:73px;margin-bottom: 15px;" data-animation="true" data-animation-type="zoomIn"/>
+                <h4>Web Designing Services</h4>
+                <p>We have a great team of Web Designers and UI Developers who work very hard and give their absolute best to provide our clients with the best web solution possible. Our team of Designers and UI Developers are very proficient and creative.</p>
+            </div>
+            <!-- end col-4 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end #about -->
+
+<!-- begin #milestone -->
+<div id="milestone" class="redline text-center" data-scrollview="true" style="background-color: #cc0000;">
+    <div class="container">
+        <h3 class="redline-title" style="color:#fff;">Quick Facts</h3>
+        <div class="row text-center">
+            <div class="col-md-4" style="padding:20px 0px;" data-animation="true" data-animation-type="zoomIn">
+                <h1 class="number" data-animation="true" data-animation-type="number" data-final-number="1800"  style="color:#fff;">1800</h1>
+                <h4  style="color:#fff;">Cup of Coffees</h4>
+            </div>
+            <div class="col-md-4" style="padding:20px 50px;border-left: 1px solid #fff;" data-animation="true" data-animation-type="zoomIn">
+                <h1 class="number" data-animation="true" data-animation-type="number" data-final-number="350" style="color:#fff;" >350<small style="color:#fff;">+</small></h1>
+                <h4 style="color:#fff;">Happy Customers</h4>
+            </div>
+            <div class="col-md-4" style="padding:20px 50px;border-left: 1px solid #fff;" data-animation="true" data-animation-type="zoomIn">
+                <h1 class="number" data-animation="true" data-animation-type="number" data-final-number="500" style="color:#fff;">500<small style="color:#fff;">+</small></h1>
+                <h4 style="color:#fff;">Successful Projects</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end #milestone -->
+
+<!-- begin #work -->
+<div id="work" class="content" data-scrollview="true">
+    <!-- begin container -->
+        <h3 class="content-title">Our Latest Work</h3>
+        <p class="content-desc">
+            Unleashing true business value potential of our exclusive client with our premium services
+        </p>
+        <!-- begin row -->
+        <div class="row row-space-10">
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://engpro.com.my/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[11]['block']?>" alt="Home" />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Engineering Protocol</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://www.internetdesignpros.com/#/ms-2/3">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[12]['block']?>" alt="Home"/>
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Internet Design Pros</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://citylabs.com.my/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[13]['block']?>" alt="Home"  />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">City Labs</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://fastref.com.au/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[14]['block']?>" alt="Home" />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Fast Ref</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+        </div>
+        <!-- end row -->
+        <!-- begin row -->
+        <div class="row row-space-10">
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://www.nhotpursuit.com/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[15]['block']?>" alt="Home"  />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">nHot Persuit</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://www.liftoffsocial.com/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[16]['block']?>" alt="Home" />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Lift of Social</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="http://www.spherixglobalinsights.com/">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[17]['block']?>" alt="Home" />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Spherix Global Insight</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <!-- begin work -->
+                <a href="byronthomas.com.a">
+                    <div class="work">
+                        <div class="image">
+                            <img src="<?php echo $this->baseUrl();?>/images/user/image-blocks/<?php echo $this->image_block[18]['block']?>" alt="Home" />
+                        </div>
+                        <div class="desc">
+                            <span class="desc-title">Byron Thomas</span>
+                            <span class="desc-text">Designed & Developed by Aliinfotech</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work -->
+            </div>
+            <!-- end col-3 -->
+        </div>
+        <!-- end row -->
+    <!-- end container -->
+</div>
+<!-- end #work -->
+
+<!-- beign #action-box -->
+<div class="redline container-fluid" data-scrollview="true" style="background-color: #212121;padding:60px 0;">
+    <!-- begin content-bg -->
+    <!-- end content-bg -->
+    <!-- begin container -->
+    <div class="container text-center" data-animation="true" data-animation-type="fadeInRight">
+        <!-- begin row -->
+        <h3 style="color:#fff" class="redline-title">Our Process</h3>
+        <div class="row action-box">
+            <!-- begin col-9 -->
+           <div class="col-md-3" style="padding:0 26px;">
+               <i class="fa fa-coffee" style="font-size:6em;color:#fff;margin-bottom: 20px;"></i>
+               <h3 style="color:#fff;margin-bottom: 20px;">Brain Storming</h3>
+               <p style="color:#fff;">The first step would be to sit down and get to know you. We'll discuss goals and project objectives and any other relevant information.
+               </p>
+           </div>
+            <div class="col-md-3" style="padding:0 26px;">
+                <i class="fa fa-clock-o" style="font-size:6em;color:#fff;margin-bottom: 20px;"></i>
+                <h3 style="color:#fff;margin-bottom: 20px;">Planning</h3>
+                <p style="color:#fff;">With the information gathered from our brainstorm session, wireframes would be developed defining layout, interactions and content structure.
+                </p>
+            </div>
+            <div class="col-md-3" style="padding:0 26px;">
+                <i class="fa fa-code" style="font-size:6em;color:#fff;margin-bottom: 20px;"></i>
+                <h3 style="color:#fff;margin-bottom: 20px;">Development</h3>
+                <p style="color:#fff;">Once the wireframes are finalized, detailed mock-ups of key pages will be designed to show the look and feel of your product.
+                </p>
+            </div><div class="col-md-3" style="padding:0 26px;">
+                <i class="fa fa-rocket" style="font-size:6em;color:#fff;margin-bottom: 20px;"></i>
+                <h3 style="color:#fff;margin-bottom: 20px;">Deploy</h3>
+                <p style="color:#fff;">With the final creative concepts completed, the designs are then coded and transformed into a fully functional product.
+                </p>
+            </div>
+
+
+            <!-- end col-3 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end #action-box -->
+<!-- begin #team -->
+<div id="team" class="content" data-scrollview="true">
+    <!-- begin container -->
+    <div class="container">
+        <h3 class="content-title">Our Team</h3>
+        <!-- begin row -->
+        <div class="row">
+            <!-- begin col-4 -->
+            <div class="col-md-3 col-sm-3">
+                <!-- begin team -->
+                <div class="team">
+                    <div class="image" data-animation="true" data-animation-type="flipInX">
+                        <img src="assets/img/user-1.jpg" alt="Ryan Teller" />
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Ryan Teller</h3>
+                        <div class="title text-theme">FOUNDER</div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook fa-lg fa-fw" style="color:#3b5998"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg fa-fw" style="color:#00aced"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg fa-fw" style="color:#dd4b39"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end team -->
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-3 col-sm-3">
+                <!-- begin team -->
+                <div class="team">
+                    <div class="image" data-animation="true" data-animation-type="flipInX">
+                        <img src="assets/img/user-2.jpg" alt="Jonny Cash" />
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Johnny Cash</h3>
+                        <div class="title text-theme">WEB DEVELOPER</div>
+                        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook fa-lg fa-fw" style="color:#3b5998"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg fa-fw" style="color:#00aced"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg fa-fw" style="color:#dd4b39"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end team -->
+            </div>
+            <!-- end col-4 -->
+            <!-- begin col-4 -->
+            <div class="col-md-3 col-sm-3">
+                <!-- begin team -->
+                <div class="team">
+                    <div class="image" data-animation="true" data-animation-type="flipInX">
+                        <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Mia Donovan</h3>
+                        <div class="title text-theme">WEB DESIGNER</div>
+                        <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. </p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook fa-lg fa-fw" style="color:#3b5998"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg fa-fw" style="color:#00aced"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg fa-fw" style="color:#dd4b39"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end team -->
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <!-- begin team -->
+                <div class="team">
+                    <div class="image" data-animation="true" data-animation-type="flipInX">
+                        <img src="assets/img/user-3.jpg" alt="Mia Donovan" />
+                    </div>
+                    <div class="info">
+                        <h3 class="name">Mia Donovan</h3>
+                        <div class="title text-theme">WEB DESIGNER</div>
+                        <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. </p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook fa-lg fa-fw" style="color:#3b5998"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg fa-fw" style="color:#00aced"></i></a>
+                            <a href="#"><i class="fa fa-google-plus fa-lg fa-fw" style="color:#dd4b39"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end team -->
+            </div>
+            <!-- end col-4 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- begin #contact -->
+<div id="contact" class="redline container-fluid" style="background-color:#3E2723;padding:50px 0;margin-top: 0;" data-scrollview="true">
+    <div class="container text-center">
+        <h3  class="redline-title" style="color: #fff;">Contact Us</h3>
+        <div class="col-md-12">
+            <h3 style="color:#fff;">
+                Lets Get Started Your Project! Have you fallen in love yet?
+            </h3>
+            <p style="color:#fff;">
+                We are building bridges in web technology in order to connect the client’s goal to reality.
+            </p>
+        </div>
+    </div>
+        <div class="container">
+                <div class="col-md-12 text-center" style="margin-bottom: 20px;">
+                    <p class="content-desc" style="color:#fff;">We try to be most responsive to your inquiries and mails. Towards this we connect you directly with the people who will respond to your mails and calls. You can help us respond quickly by choosing the most appropriate contact information for your purpose.
+                    </p>
+                </div>
+                <form action="" method="post">
+                    <div class="col-md-6">
+                        <?php echo $this->form->cf_name;?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php echo $this->form->cf_email;?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php echo $this->form->cf_subject;?>
+                    </div>
+                    <div class="col-md-6" style="margin-top: -27px;">
+                        <?php echo $this->form->parent_id; ?>
+                    </div>
+                    <div class="col-md-12">
+                        <?php echo $this->form->cf_message;?>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <button type="submit"  class="btn btn-success btn-lg" style="border-radius: 0;background-color: #fff;color:#3E2723;border-color:#fff;font-weight:bold;border-radius: 10px;"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+</div>

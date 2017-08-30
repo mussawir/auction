@@ -1,0 +1,22 @@
+<div class="row text-center"style="margin-bottom: 30px;">
+            <div class="col-md-3">
+                <i class="fa fa-envelope" style="font-size: 7em;border-bottom: 1px solid #32506d;padding:30px;margin-bottom: 15px;color:#32506d;"></i>
+                <h4>Email</h4>
+                <a href="#">support@email.com</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-phone" style="font-size: 7em;border-bottom: 1px solid #cc0000;padding:30px;margin-bottom: 15px;color:#cc0000;"></i>
+                <h4>Phone</h4>
+                <p>+123456789</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-twitter" style="font-size: 7em;border-bottom: 1px solid #00aced;padding:30px;margin-bottom: 15px;color:#00aced;"></i>
+                <h4>Twitter</h4>
+                <a href="#">Follow us</a>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-skype" style="font-size: 7em; border-bottom: 1px solid #12A5F4;padding:30px;margin-bottom: 15px;color:#12A5F4;"></i>
+                <h4>Skype</h4>
+                <a href="#">Call us</a>
+            </div>
+        </div>
