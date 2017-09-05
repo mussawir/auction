@@ -1,1 +1,0 @@
-@extends('layouts.adash')@section('content')user list will show here@endsection
