@@ -61,12 +61,32 @@ class RegisterController extends Controller
      * @return \App\User
      */
     protected function create(array $data)
-    {
+    {   //mainFiles
+        
+        if($data['ic_image']) {
+       
+        $files = $data['ic_image'];
+       
+        $path = 'public/identity/images';
+        $pathUpdate = '';
+        $rand_num = rand(11111, 99999);
+        $filename = $rand_num .'-'.$files->getClientOriginalName();
+        $upload_success = $files->move($path, $filename);
+        $pathUpdate= $path.'/'.$filename;
+        //	$this->copyFile($pathUpdate);
+        $data->save();
+               }
+
+
+
+
+
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'phone' => $data['phone'],
             'identity' => $data['identity'],
+            'ic_image' => $data['ic_image'],
             'campus_name' => $data['campus_name'],
             'role' => 3,
             'password' => bcrypt($data['password']),

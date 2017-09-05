@@ -8,7 +8,7 @@
                 <div class="panel-heading">Members Registration</div>
 
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                    <form class="form-horizontal" method="POST" action="{{ route('register') }}"  enctype="multipart/form-data">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
@@ -60,7 +60,7 @@
 
                             <div class="col-md-6">
                                 <input id="identity" type="text" class="form-control" name="identity" value="{{ old('identity') }}" required autofocus>
-
+                                   <input type="file" name="ic_image" id="fileToUpload">
                                 @if ($errors->has('identity'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('identity') }}</strong>
