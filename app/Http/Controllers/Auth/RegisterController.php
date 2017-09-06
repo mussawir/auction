@@ -50,6 +50,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
+            'identity' => 'required|string|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
         ]);
     }
@@ -62,17 +63,28 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {   //mainFiles
+        //ic_image stand for id card image
         
         if($data['ic_image']) {
        
         $files = $data['ic_image'];
-       
+            
         $path = 'public/identity/images';
         $pathUpdate = '';
         $rand_num = rand(11111, 99999);
         $filename = $rand_num .'-'.$files->getClientOriginalName();
         $upload_success = $files->move($path, $filename);
         $pathUpdate= $path.'/'.$filename;
+        return User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'phone' => $data['phone'],
+            'identity' => $pathUpdate,
+            'identity_image' => $data['ic_image'],
+            'campus_name' => $data['campus_name'],
+            'role' => 3,
+            'password' => bcrypt($data['password']),
+        ]);
         //	$this->copyFile($pathUpdate);
         $data->save();
                }
@@ -81,15 +93,6 @@ class RegisterController extends Controller
 
 
 
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'phone' => $data['phone'],
-            'identity' => $data['identity'],
-            'ic_image' => $data['ic_image'],
-            'campus_name' => $data['campus_name'],
-            'role' => 3,
-            'password' => bcrypt($data['password']),
-        ]);
+      
     }
 }
